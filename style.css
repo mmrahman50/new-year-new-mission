@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner new year styles */
+.banner-new-year {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('./images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner-content h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Merriweather";
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner-content h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Merriweather";
+    font-style: Black;
+    font-size: 65px;
+    font-weight: 900;
+    width: 632px;
+    text-align: center;
+    margin: 0;
+}
+
+/* 65% off styles */
+.discount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.new-year-img {
+    width: 600px;
+}
+
+.discount-content h1 {
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discount-content p {
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.discount-content h2 {
+    color: rgba(7, 2, 17, 1);
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* welcome party styles */
+.midnight-party {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 126px;
+    margin-top: 20px;
+}
+
+.party-content h2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Merriweather";
+    font-size: 60px;
+    font-weight: 900;
+    text-align: left;
+    width: 600px;
+}
+
+.party-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 697px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.party-content a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 1);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.party-content {
+    width: 100%;
+}
+
+/* location section styles */
+.location {
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.location-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.location-content p {
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.location-content a button:hover {
+    cursor: pointer;
+}
+
+.text-red {
+    color: rgba(255, 0, 0, 1);
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, 1);
+    padding: 15px 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* offer section styles */
+.coming-soon {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.best-offer {
+    width: 30%;
+    font-size: 20px;
+}
+
+.ellipse-img {
+    width: 80%;
+    border: 10px solid red;
+    border-radius: 300px;
+    padding: 20px;
+}
+
+.img-96 {
+    padding-top: 30px;
+}
+
+.secondary-text {
+    font-size: 17px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.countdown {
+    width: 20%;
+    font-size: 35px;
+}
+
+/* holiday section styles */
+
+.holiday-sale {
+    text-align: center;
+}
+
+.function {
+    font-family: "Inter";
+    font-size: 20px;
+    color: rgba(7, 2, 17, 1);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.offer-info {
+    width: 900px;
+    margin: auto;
+}
+
+.holiday-discount {
+    font-family: "Merriweather";
+    font-size: 55px;
+    font-weight: 800;
+    padding-bottom: 12px;
+}
+
+.text-orange {
+    color: rgba(255, 0, 0, 1);
+}
+
+.img-box {
+    position: relative;
+    height: 550px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.image-item1 {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 4;
+    width: 620px;
+}
+
+.image-item2 {
+    position: absolute;
+    right: 227px;
+    top: 25px;
+    z-index: 3;
+    width: 292px;
+
+}
+
+.image-item3 {
+    position: absolute;
+    right: 0px;
+    bottom: 220px;
+    z-index: 1;
+    width: 334px;
+}
+
+.image-item4 {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+/* portfolio section styles */
+.portfolio-width {
+    width: 800px;
+}
+
+.portfolio-info h2 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.photo-gallery {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.gallery-one {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+}
+
+.gallery-two {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .gallery-new{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap: 20px; 
+} */
+
+/* subscribe section styles */
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.input-email{
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    padding-left: 14px;
+}
+.btn-subscribe{
+    background: rgba(255, 0, 0, 1);
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    height: 40px;
+    padding: 0 15px;
+    color: white;
+    margin-left: -20px;
+}
+
+/* footer styles */
+footer{
+    background: black;
+    color: white;
+    padding: 80px;
+}
+.footer-top-content{
+    display: flex;
+    justify-content: space-around;
+}
+.social-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
