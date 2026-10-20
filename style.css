@@ -335,6 +335,10 @@ main {
     width: 300px;
     padding-left: 14px;
 }
+input:focus{
+    outline: 0;
+    border: 1px solid rgba(255, 0, 0, 1);
+}
 .btn-subscribe{
     background: rgba(255, 0, 0, 1);
     border: none;
